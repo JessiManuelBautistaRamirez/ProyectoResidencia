@@ -1,1 +1,44 @@
-<p>nosotros-page works!</p>
+<div class="p-4">
+  <div class="w-full mt-10">
+    <h1 class="text-slate-800 font-semibold text-3xl mx-auto text-center">Vive una experiencia única con CARSGET  </h1>
+  </div>
+  <div class="w-full flex flex-row justify-between px-4">
+    <div class="w-80 p-3 rounded-md bg-slate-100 mt-5">
+      <img src="https://www.kavak.com/mx/sucursales/images/Car.svg" width="40" height="40" alt="car"
+        class="mx-auto">
+      <h3 class="text-slate-600 text-xl font-bold text-center">Miles de autos disponibles</h3>
+      <div class="text-base text-slate-600 font-semibold text-center">Podrás explorar cuantos quieras y encontrar la mejor opción para ti.</div>
+    </div>
+    <div class="w-80 p-3 rounded-md bg-slate-100 mt-5">
+      <img src="https://www.kavak.com/mx/sucursales/images/user_1.svg" width="40" height="40" alt="car"
+        class="mx-auto">
+      <h3 class="text-slate-600 text-xl font-bold text-center">Atención exclusiva</h3>
+      <div class="text-base text-slate-600 font-semibold text-center">Recibe acompañamiento personalizado para vender o comprar un auto y conocer las opciones de pago.      </div>
+    </div>
+    <div class="w-80 p-3 rounded-md bg-slate-100 mt-5">
+      <img src="https://www.kavak.com/mx/sucursales/images/tradein.svg" width="40" height="40" alt="car"
+        class="mx-auto">
+      <h3 class="text-slate-600 text-xl font-bold text-center">Compra y venta en un solo lugar</h3>
+      <div class="text-base text-slate-600 font-semibold text-center">Deja tu auto a cuenta y llevate un Kavak, todo en el mismo día.</div>
+    </div>
+  </div>
+  <div class="w-full mt-16">
+    <h1 class="text-slate-800 font-semibold text-3xl mx-auto text-center">Vive una experiencia única con CARSGET  </h1>
+    <p class="text-slate-600 font-semibold text-base text-center">Elige un modelo y continúa tu compra en línea.</p>
+  </div>
+
+  <div class="w-full flex flex-wrap justify-between mt-10">
+
+    <div class="p-7 rounded-md bg-slate-200 w-32 mx-2" *ngFor="let item of ['SUV','Sedan','Hatchback','Pickup','Coupe','Miniva']">
+      <div class="w-layout-vflex flex-block-5">
+        <img src="https://www.kavak.com/mx/sucursales/images/suv.webp" loading="lazy" width="60" alt="SUV" class="w-56">
+        <p class="text-slate-600 font-semibold text-base text-center mt-5">{{item}}</p>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>

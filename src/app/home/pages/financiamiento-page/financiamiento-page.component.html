@@ -1,1 +1,19 @@
-<p>financiamiento-page works!</p>
+<section id="financiamiento">
+  <h2 class="text-2xl text-slate-600 font-bold">Calcula tu Financiamiento</h2>
+  <form id="financiamiento-form">
+      <label for="precioAuto" class="text-lg text-slate-600 font-semibold">Precio del Auto ($):</label>
+      <input type="number" id="precioAuto" required="">
+
+      <label for="enganche" class="text-lg text-slate-600 font-semibold">Enganche ($):</label>
+      <input type="number" id="enganche" required="">
+
+      <label for="tasaInteres" class="text-lg text-slate-600 font-semibold">Tasa de Interés (%):</label>
+      <input type="number" id="tasaInteres" step="0.01" required="">
+
+      <label for="plazo"class="text-lg text-slate-600 font-semibold">Plazo (años):</label>
+      <input type="number" id="plazo" required="">
+
+      <button type="button" class="rounded-md" onclick="calcularFinanciamiento()">Calcular</button>
+  </form>
+  <div id="resultadoFinanciamiento"></div>
+</section>
