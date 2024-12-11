@@ -8,6 +8,8 @@ import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { HomeRoutingModule } from './home-routing.module';
 import { InicioPageComponent } from './pages/inicio-page/inicio-page.component';
+import { SolicitudCitaComponent } from './pages/solicitud-cita/solicitud-cita.component';
+import { DetalleCarroComponent } from './pages/detalle-carro/detalle-carro.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { InicioPageComponent } from './pages/inicio-page/inicio-page.component';
     FinanciamientoPageComponent,
     SolicitudPageComponent,
     NosotrosPageComponent,
-    InicioPageComponent
+    InicioPageComponent,
+    SolicitudCitaComponent,
+    DetalleCarroComponent
   ],
   imports: [
     CommonModule,

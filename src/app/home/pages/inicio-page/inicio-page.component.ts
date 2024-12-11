@@ -1,10 +1,21 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { AutosService } from '../../services/autos.service';
+import { AutosModel } from '../../interface/auto.interface';
 
 @Component({
   selector: 'app-inicio-page',
   templateUrl: './inicio-page.component.html',
   styles: ``
 })
-export class InicioPageComponent {
+export class InicioPageComponent implements OnInit {
+  public autos?:AutosModel[]
+  constructor(private autoServices:AutosService) {
+
+  }
+  ngOnInit(): void {
+    this.autoServices.getAutos().subscribe(results=>{
+      this.autos = results
+    })
+  }
 
 }
