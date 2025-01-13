@@ -5,7 +5,7 @@ import { FinanciamientoPageComponent } from './pages/financiamiento-page/financi
 import { SolicitudPageComponent } from './pages/solicitud-page/solicitud-page.component';
 import { NosotrosPageComponent } from './pages/nosotros-page/nosotros-page.component';
 import { RouterModule } from '@angular/router';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeRoutingModule } from './home-routing.module';
 import { InicioPageComponent } from './pages/inicio-page/inicio-page.component';
 import { SolicitudCitaComponent } from './pages/solicitud-cita/solicitud-cita.component';
@@ -25,7 +25,8 @@ import { DetalleCarroComponent } from './pages/detalle-carro/detalle-carro.compo
     CommonModule,
     RouterModule,
     FormsModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    ReactiveFormsModule
   ]
 })
 export class HomeModule { }

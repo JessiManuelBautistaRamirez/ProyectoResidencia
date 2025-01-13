@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class FinanciamientoPageComponent {
 
+  public plazo =0;
+
+  validar(ins:HTMLInputElement){
+    const valor = Number.parseInt(ins.value)
+
+    if (valor>60) {
+      ins.value = '1'
+
+    }
+  }
+
 }

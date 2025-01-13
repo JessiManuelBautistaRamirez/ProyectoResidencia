@@ -7,13 +7,13 @@
       <label for="enganche" class="text-lg text-slate-600 font-semibold">Enganche ($):</label>
       <input type="number" id="enganche" required="">
 
-      <label for="tasaInteres" class="text-lg text-slate-600 font-semibold">Tasa de Interés (%):</label>
-      <input type="number" id="tasaInteres" step="0.01" required="">
+      <label for="tasaInteres" class="text-lg text-slate-600 font-semibold">Tasa de Interés (2.2%):</label>
 
-      <label for="plazo"class="text-lg text-slate-600 font-semibold">Plazo (años):</label>
-      <input type="number" id="plazo" required="">
+      <label for="plazo"class="text-lg text-slate-600 font-semibold">Plazo (hasta 60 meses):</label>
+      <input #in  (input)="validar(in)"
+       type="number" max="60" min="1" id="plazo" required="">
 
       <button type="button" class="rounded-md" onclick="calcularFinanciamiento()">Calcular</button>
   </form>
-  <div id="resultadoFinanciamiento"></div>
+  <div id="resultadoFinanciamiento">en proceso</div>
 </section>
