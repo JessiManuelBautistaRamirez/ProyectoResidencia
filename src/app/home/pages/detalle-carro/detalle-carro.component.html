@@ -1,17 +1,57 @@
+<div class="w-full h-full flex justify-around pt-10" *ngIf="!car">
+  <svg width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" stroke="black">
+    <g fill="none" fill-rule="evenodd" stroke-width="2">
+        <circle cx="22" cy="22" r="1">
+            <animate attributeName="r"
+                begin="0s" dur="1.8s"
+                values="1; 20"
+                calcMode="spline"
+                keyTimes="0; 1"
+                keySplines="0.165, 0.84, 0.44, 1"
+                repeatCount="indefinite" />
+            <animate attributeName="stroke-opacity"
+                begin="0s" dur="1.8s"
+                values="1; 0"
+                calcMode="spline"
+                keyTimes="0; 1"
+                keySplines="0.3, 0.61, 0.355, 1"
+                repeatCount="indefinite" />
+        </circle>
+        <circle cx="22" cy="22" r="1">
+            <animate attributeName="r"
+                begin="-0.9s" dur="1.8s"
+                values="1; 20"
+                calcMode="spline"
+                keyTimes="0; 1"
+                keySplines="0.165, 0.84, 0.44, 1"
+                repeatCount="indefinite" />
+            <animate attributeName="stroke-opacity"
+                begin="-0.9s" dur="1.8s"
+                values="1; 0"
+                calcMode="spline"
+                keyTimes="0; 1"
+                keySplines="0.3, 0.61, 0.355, 1"
+                repeatCount="indefinite" />
+        </circle>
+    </g>
+  </svg>
+
+</div>
+
 <div class="px-2">
   <div class="flex flex-row mt-4">
-    <img width="600px"
-     src="https://media.istockphoto.com/id/1157655660/es/foto/suv-rojo-gen%C3%A9rico-sobre-un-fondo-blanco-vista-lateral.jpg?s=612x612&w=0&k=20&c=0I2xA9oCnNUfluy5m1ErkM4NwHQOkhDUr2HwKXNO1z8="
-    class=""
+    <img width="500px" height="300px"
+     [src]="car?.imagen"
+    class=" rounded-md shadow-2xl"
      alt="cars">
      <div class="flex-1 flex flex-col p-4 border rounded">
       <div class="border-b mb-2 pb-2">
         <h1 class="text-slate-600 font-bold font-serif">Nombre del carro</h1>
-        <span class="mt-1 text-sm text-slate-500 font-semibold">° 7767 km</span>
+        <span class="mt-1 text-sm text-slate-500 font-semibold">{{car?.nombre}}</span>
       </div>
       <div class="mb-1 ">
         <span class="text-sm text-slate-500 font-semibold">Precio desde</span>
-        <p class="text-xl text-slate-600 font-bold font-serif">$783,233</p>
+        <p class="text-xl text-slate-600 font-bold font-serif">${{car?.precio}}</p>
       </div>
       <div class="border-b mb-2 pb-2">
         <span class="text-sm text-slate-500 font-semibold">$4,050 /mes*</span>
@@ -19,15 +59,15 @@
       </div>
       <div class="border-b mb-2 pb-2">
         <span class="text-sm text-slate-500 font-semibold">Año</span>
-        <p class="text-slate-600 font-bold font-serif">2024</p>
+        <p class="text-slate-600 font-bold font-serif">{{car?.anio}}</p>
       </div>
       <div class="border-b mb-2 pb-2">
         <span class="text-sm text-slate-500 font-semibold">Version</span>
-        <p class="text-slate-600 font-bold font-serif">MED-23</p>
+        <p class="text-slate-600 font-bold font-serif">{{car?.version}}</p>
       </div>
       <div class="border-b mb-2 pb-2">
         <span class="text-sm text-slate-500 font-semibold">Stock</span>
-        <p class="text-slate-600 font-bold font-serif">2</p>
+        <p class="text-slate-600 font-bold font-serif">{{car?.stock}}</p>
       </div>
       <div class="border-b mb-2 pb-2 h-auto">
         <button routerLink="../../solicitud/12" class="bg-blue-700 p-3 text-slate-100 rounded-md border  w-full">Apartar</button>
@@ -40,31 +80,31 @@
     </div>
     <div class="mt-5 flex flex-row">
       <div class="flex-1 flex flex-col">
-        <div class="pb-2 border-b m-1">
-          <label for="">Label</label>
-          <p>12232</p>
+        <div class="pb-2  border-b m-1">
+          <label for="" class="font-bold text-gray-800">Aceleración</label>
+          <p class="text-slate-800">{{carDescription?.aceleracion}}</p>
         </div>
         <div class="pb-2 border-b m-1">
-          <label for="">Label</label>
-          <p>12232</p>
+          <label for="" class="font-bold text-gray-800">Cilindros</label>
+          <p class="text-slate-800">{{carDescription?.cilindro}}</p>
         </div>
         <div class="pb-2 border-b m-1">
-          <label for="">Label</label>
-          <p>12232</p>
+          <label for="" class="font-bold text-gray-800">Numero de velocidades</label>
+          <p class="text-slate-800">{{carDescription?.num_Velocidades}}</p>
         </div>
       </div>
       <div class="flex-1 flex flex-col">
         <div class="pb-2 border-b m-1">
-          <label for="">Label</label>
-          <p>12232</p>
+          <label for="" class="font-bold text-gray-800">Combustible</label>
+          <p class="text-slate-800">{{carDescription?.combustible}}</p>
         </div>
         <div class="pb-2 border-b m-1">
-          <label for="">Label</label>
-          <p>12232</p>
+          <label for="" class="font-bold text-gray-800">Caballos</label>
+          <p class="text-slate-800">{{carDescription?.caballos}}</p>
         </div>
         <div class="pb-2 border-b m-1">
-          <label for="">Label</label>
-          <p>12232</p>
+          <label for="" class="font-bold text-gray-800">Star - Stop</label>
+          <p class="text-slate-800">{{carDescription?.star_Stop}}</p>
         </div>
       </div>
     </div>
