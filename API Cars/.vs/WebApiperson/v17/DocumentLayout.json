@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bmaldona\\Documents\\Cardona\\WebApiperson\\WebApiperson\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27B5D116-0F7B-43FC-A90C-D6A1F6046392}|WebApiperson\\WebApiperson.csproj|c:\\users\\bmaldona\\documents\\cardona\\webapiperson\\webapiperson\\webapiperson\\webapiperson.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{27B5D116-0F7B-43FC-A90C-D6A1F6046392}|WebApiperson\\WebApiperson.csproj|solutionrelative:webapiperson\\webapiperson.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B5D116-0F7B-43FC-A90C-D6A1F6046392}|WebApiperson\\WebApiperson.csproj|c:\\users\\bmaldona\\documents\\cardona\\webapiperson\\webapiperson\\webapiperson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27B5D116-0F7B-43FC-A90C-D6A1F6046392}|WebApiperson\\WebApiperson.csproj|solutionrelative:webapiperson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B5D116-0F7B-43FC-A90C-D6A1F6046392}|WebApiperson\\WebApiperson.csproj|c:\\users\\bmaldona\\documents\\cardona\\webapiperson\\webapiperson\\webapiperson\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{27B5D116-0F7B-43FC-A90C-D6A1F6046392}|WebApiperson\\WebApiperson.csproj|solutionrelative:webapiperson\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B5D116-0F7B-43FC-A90C-D6A1F6046392}|WebApiperson\\WebApiperson.csproj|c:\\users\\bmaldona\\documents\\cardona\\webapiperson\\webapiperson\\webapiperson\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{27B5D116-0F7B-43FC-A90C-D6A1F6046392}|WebApiperson\\WebApiperson.csproj|solutionrelative:webapiperson\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B5D116-0F7B-43FC-A90C-D6A1F6046392}|WebApiperson\\WebApiperson.csproj|c:\\users\\bmaldona\\documents\\cardona\\webapiperson\\webapiperson\\webapiperson\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27B5D116-0F7B-43FC-A90C-D6A1F6046392}|WebApiperson\\WebApiperson.csproj|solutionrelative:webapiperson\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B5D116-0F7B-43FC-A90C-D6A1F6046392}|WebApiperson\\WebApiperson.csproj|c:\\users\\bmaldona\\documents\\cardona\\webapiperson\\webapiperson\\webapiperson\\migrations\\20250109211053_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27B5D116-0F7B-43FC-A90C-D6A1F6046392}|WebApiperson\\WebApiperson.csproj|solutionrelative:webapiperson\\migrations\\20250109211053_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B5D116-0F7B-43FC-A90C-D6A1F6046392}|WebApiperson\\WebApiperson.csproj|c:\\users\\bmaldona\\documents\\cardona\\webapiperson\\webapiperson\\webapiperson\\models\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27B5D116-0F7B-43FC-A90C-D6A1F6046392}|WebApiperson\\WebApiperson.csproj|solutionrelative:webapiperson\\models\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bmaldona\\Documents\\Cardona\\WebApiperson\\WebApiperson\\WebApiperson\\Program.cs",
+              "RelativeDocumentMoniker": "WebApiperson\\Program.cs",
+              "ToolTip": "C:\\Users\\bmaldona\\Documents\\Cardona\\WebApiperson\\WebApiperson\\WebApiperson\\Program.cs",
+              "RelativeToolTip": "WebApiperson\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T23:31:41.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebApiperson.csproj",
+              "DocumentMoniker": "C:\\Users\\bmaldona\\Documents\\Cardona\\WebApiperson\\WebApiperson\\WebApiperson\\WebApiperson.csproj",
+              "RelativeDocumentMoniker": "WebApiperson\\WebApiperson.csproj",
+              "ToolTip": "C:\\Users\\bmaldona\\Documents\\Cardona\\WebApiperson\\WebApiperson\\WebApiperson\\WebApiperson.csproj",
+              "RelativeToolTip": "WebApiperson\\WebApiperson.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-09T21:11:44.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250109211053_initial.cs",
+              "DocumentMoniker": "C:\\Users\\bmaldona\\Documents\\Cardona\\WebApiperson\\WebApiperson\\WebApiperson\\Migrations\\20250109211053_initial.cs",
+              "RelativeDocumentMoniker": "WebApiperson\\Migrations\\20250109211053_initial.cs",
+              "ToolTip": "C:\\Users\\bmaldona\\Documents\\Cardona\\WebApiperson\\WebApiperson\\WebApiperson\\Migrations\\20250109211053_initial.cs",
+              "RelativeToolTip": "WebApiperson\\Migrations\\20250109211053_initial.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAgwJwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T21:10:54.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\bmaldona\\Documents\\Cardona\\WebApiperson\\WebApiperson\\WebApiperson\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebApiperson\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\bmaldona\\Documents\\Cardona\\WebApiperson\\WebApiperson\\WebApiperson\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebApiperson\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-09T21:03:17.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\bmaldona\\Documents\\Cardona\\WebApiperson\\WebApiperson\\WebApiperson\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApiperson\\appsettings.json",
+              "ToolTip": "C:\\Users\\bmaldona\\Documents\\Cardona\\WebApiperson\\WebApiperson\\WebApiperson\\appsettings.json",
+              "RelativeToolTip": "WebApiperson\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-09T21:03:06.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\bmaldona\\Documents\\Cardona\\WebApiperson\\WebApiperson\\WebApiperson\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "WebApiperson\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\bmaldona\\Documents\\Cardona\\WebApiperson\\WebApiperson\\WebApiperson\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "WebApiperson\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwBEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T03:36:33.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "auto.cs",
+              "DocumentMoniker": "C:\\Users\\bmaldona\\Documents\\Cardona\\WebApiperson\\WebApiperson\\WebApiperson\\models\\auto.cs",
+              "RelativeDocumentMoniker": "WebApiperson\\models\\auto.cs",
+              "ToolTip": "C:\\Users\\bmaldona\\Documents\\Cardona\\WebApiperson\\WebApiperson\\WebApiperson\\models\\auto.cs",
+              "RelativeToolTip": "WebApiperson\\models\\auto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T03:36:22Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
