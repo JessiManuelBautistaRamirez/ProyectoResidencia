@@ -26,6 +26,10 @@ const routes: Routes = [
         component: SolicitudCitaComponent,
       },
       {
+        path: "solicitud",
+        component: SolicitudCitaComponent,
+      },
+      {
         path: "nosotros",
         component: NosotrosPageComponent
       },

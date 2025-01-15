@@ -10,6 +10,8 @@ import { HomeRoutingModule } from './home-routing.module';
 import { InicioPageComponent } from './pages/inicio-page/inicio-page.component';
 import { SolicitudCitaComponent } from './pages/solicitud-cita/solicitud-cita.component';
 import { DetalleCarroComponent } from './pages/detalle-carro/detalle-carro.component';
+import { ConfirmDialogModule } from 'primeng/confirmdialog';
+import { ToastModule } from 'primeng/toast';
 
 @NgModule({
   declarations: [
@@ -24,9 +26,11 @@ import { DetalleCarroComponent } from './pages/detalle-carro/detalle-carro.compo
   imports: [
     CommonModule,
     RouterModule,
-    FormsModule,
+    // FormsModule,
     HomeRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    ConfirmDialogModule,
+    ToastModule
   ]
 })
 export class HomeModule { }

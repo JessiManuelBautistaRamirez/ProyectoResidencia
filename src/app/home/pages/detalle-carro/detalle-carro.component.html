@@ -38,7 +38,7 @@
 
 </div>
 
-<div class="px-2">
+<div class="px-2 mt-10 mb-32" >
   <div class="flex flex-row mt-4">
     <img width="500px" height="300px"
      [src]="car?.imagen"
@@ -70,7 +70,7 @@
         <p class="text-slate-600 font-bold font-serif">{{car?.stock}}</p>
       </div>
       <div class="border-b mb-2 pb-2 h-auto">
-        <button routerLink="../../solicitud/12" class="bg-blue-700 p-3 text-slate-100 rounded-md border  w-full">Apartar</button>
+        <button [routerLink]="'../../solicitud/'+car?.id" class="bg-blue-700 p-3 text-slate-100 rounded-md border  w-full">Apartar</button>
       </div>
      </div>
   </div>
