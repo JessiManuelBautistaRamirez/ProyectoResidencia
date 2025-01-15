@@ -8,7 +8,8 @@ import { AutosModel } from '../../interface/auto.interface';
   styles: ``
 })
 export class InicioPageComponent implements OnInit {
-  public autos?:AutosModel[]
+  public autos?:AutosModel[];
+
   constructor(private autoServices:AutosService) {
 
   }

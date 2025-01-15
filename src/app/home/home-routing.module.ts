@@ -18,6 +18,10 @@ const routes: Routes = [
         component: InicioPageComponent,
       },
       {
+        path: "finaciamiento/:idCars",
+        component: FinanciamientoPageComponent,
+      },
+      {
         path: "finaciamiento",
         component: FinanciamientoPageComponent,
       },

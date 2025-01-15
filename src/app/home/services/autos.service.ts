@@ -2,10 +2,13 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { catchError, Observable, of } from 'rxjs';
 import { AutosModel, Description, Sucursal } from '../interface/auto.interface';
+import { environments } from '../../../env/environments.prod';
+// import { environments } from '../../../env/environments';
 
 @Injectable({providedIn: 'root'})
 export class AutosService {
-  private _URLBase="http://carsget.somee.com/api";
+  private _URLBase=environments.baseURL;
+  // private _URLBase = environments.baseURL;
 
   constructor(private httpClient: HttpClient) { }
 

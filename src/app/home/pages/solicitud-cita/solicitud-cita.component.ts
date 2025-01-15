@@ -1,16 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { AutosService } from '../../services/autos.service';
-import { AutosModel } from '../../interface/auto.interface';
+import { AutosModel, Item } from '../../interface/auto.interface';
 import { SolicitudService } from '../../services/solicitud.service';
 import { ConfirmationService, MessageService } from 'primeng/api';
 import { ActivatedRoute } from '@angular/router';
 // import { FormBuilder, FormGroup } from '@angular/forms';
 
-interface Item {
-  name: string;
-  code: string;
-}
+
 
 @Component({
   selector: 'app-solicitud-cita',
@@ -26,6 +23,7 @@ export class SolicitudCitaComponent implements OnInit {
   public opciones: Item[] = [];
   public opSucursal: Item[] = [];
   public suc: string = "12";
+  public myForms: FormGroup;
 
   public unidades?: AutosModel[]
 
@@ -74,7 +72,6 @@ export class SolicitudCitaComponent implements OnInit {
     })
   }
 
-  public myForms: FormGroup;
 
   enviar() {
     this.confirmationService.confirm({

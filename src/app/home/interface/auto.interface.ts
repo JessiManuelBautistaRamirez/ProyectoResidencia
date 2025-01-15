@@ -51,3 +51,10 @@ export interface Sucursal {
   id_Sucursal:number
   ubicacion:string
 }
+
+
+export interface Item {
+  name: string;
+  code: string;
+
+}

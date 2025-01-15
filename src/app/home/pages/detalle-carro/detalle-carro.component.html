@@ -74,6 +74,12 @@
       </div>
      </div>
   </div>
+  <div class="flex flex-row  items-center mt-6 overflow-auto">
+    <img width="250px" height="150px"
+     [src]="car?.imagen"
+    class=" rounded-md shadow-2xl mr-3"
+     alt="cars" *ngFor="let item of [0,1,2,3]">
+  </div>
   <div class="mt-10 p-5">
     <div>
       <p class="text-2xl text-slate-700 font-bold">Descripción General</p>

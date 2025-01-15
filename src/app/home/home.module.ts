@@ -26,7 +26,7 @@ import { ToastModule } from 'primeng/toast';
   imports: [
     CommonModule,
     RouterModule,
-    // FormsModule,
+    FormsModule,
     HomeRoutingModule,
     ReactiveFormsModule,
     ConfirmDialogModule,
