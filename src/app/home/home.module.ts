@@ -12,6 +12,7 @@ import { SolicitudCitaComponent } from './pages/solicitud-cita/solicitud-cita.co
 import { DetalleCarroComponent } from './pages/detalle-carro/detalle-carro.component';
 import { ConfirmDialogModule } from 'primeng/confirmdialog';
 import { ToastModule } from 'primeng/toast';
+import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,7 @@ import { ToastModule } from 'primeng/toast';
     NosotrosPageComponent,
     InicioPageComponent,
     SolicitudCitaComponent,
-    DetalleCarroComponent
+    DetalleCarroComponent,
   ],
   imports: [
     CommonModule,

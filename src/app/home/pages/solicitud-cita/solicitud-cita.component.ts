@@ -85,7 +85,8 @@ export class SolicitudCitaComponent implements OnInit {
         const params = {
           nombre: this.myForms.controls["cliente"].value,
           ap: this.myForms.controls["ap"].value,
-          am: this.myForms.controls["am"].value
+          am: this.myForms.controls["am"].value,
+          telefono:this.myForms.controls["telefono"].value
         }
         this.ss.postCliente(params).subscribe(e => {
           if (e != null) {

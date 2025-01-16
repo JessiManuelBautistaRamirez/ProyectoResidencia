@@ -39,12 +39,12 @@
 </div>
 
 <div class="px-2 mt-10 mb-32" >
-  <div class="flex flex-row mt-4">
-    <img width="500px" height="300px"
+  <div class="flex flex-row max-[800px]:flex-col  mt-4">
+    <img width="450px" height="250px"
      [src]="car?.imagen"
-    class=" rounded-md shadow-2xl"
-     alt="cars">
-     <div class="flex-1 flex flex-col p-4 border rounded">
+    class=" rounded-md shadow-2xl mr-2 max-[800px]:mx-auto"
+     alt="cars" >
+     <div class="flex-1 flex flex-col p-4 border rounded max-[800px]:mt-10">
       <div class="border-b mb-2 pb-2">
         <h1 class="text-slate-600 font-bold font-serif">Nombre del carro</h1>
         <span class="mt-1 text-sm text-slate-500 font-semibold">{{car?.nombre}}</span>

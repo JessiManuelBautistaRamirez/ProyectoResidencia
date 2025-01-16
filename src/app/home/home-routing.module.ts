@@ -42,6 +42,10 @@ const routes: Routes = [
         component: DetalleCarroComponent
       },
       {
+        path: "detalle-cars/:idCars",
+        component: DetalleCarroComponent
+      },
+      {
         path: "**",
         redirectTo: "inicio"
       }

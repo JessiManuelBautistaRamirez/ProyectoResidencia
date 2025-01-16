@@ -17,7 +17,8 @@ export class SolicitudService {
     const body = {
       nombre:params.nombre,
       ap:params.ap,
-      am:params.am
+      am:params.am,
+      telefono:params.telefono
 
     };
 
