@@ -3,49 +3,32 @@
   <div class="w-full h-full flex justify-around pt-10" *ngIf="!autos">
     <svg width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" stroke="black">
       <g fill="none" fill-rule="evenodd" stroke-width="2">
-          <circle cx="22" cy="22" r="1">
-              <animate attributeName="r"
-                  begin="0s" dur="1.8s"
-                  values="1; 20"
-                  calcMode="spline"
-                  keyTimes="0; 1"
-                  keySplines="0.165, 0.84, 0.44, 1"
-                  repeatCount="indefinite" />
-              <animate attributeName="stroke-opacity"
-                  begin="0s" dur="1.8s"
-                  values="1; 0"
-                  calcMode="spline"
-                  keyTimes="0; 1"
-                  keySplines="0.3, 0.61, 0.355, 1"
-                  repeatCount="indefinite" />
-          </circle>
-          <circle cx="22" cy="22" r="1">
-              <animate attributeName="r"
-                  begin="-0.9s" dur="1.8s"
-                  values="1; 20"
-                  calcMode="spline"
-                  keyTimes="0; 1"
-                  keySplines="0.165, 0.84, 0.44, 1"
-                  repeatCount="indefinite" />
-              <animate attributeName="stroke-opacity"
-                  begin="-0.9s" dur="1.8s"
-                  values="1; 0"
-                  calcMode="spline"
-                  keyTimes="0; 1"
-                  keySplines="0.3, 0.61, 0.355, 1"
-                  repeatCount="indefinite" />
-          </circle>
+        <circle cx="22" cy="22" r="1">
+          <animate attributeName="r" begin="0s" dur="1.8s" values="1; 20" calcMode="spline" keyTimes="0; 1"
+            keySplines="0.165, 0.84, 0.44, 1" repeatCount="indefinite" />
+          <animate attributeName="stroke-opacity" begin="0s" dur="1.8s" values="1; 0" calcMode="spline" keyTimes="0; 1"
+            keySplines="0.3, 0.61, 0.355, 1" repeatCount="indefinite" />
+        </circle>
+        <circle cx="22" cy="22" r="1">
+          <animate attributeName="r" begin="-0.9s" dur="1.8s" values="1; 20" calcMode="spline" keyTimes="0; 1"
+            keySplines="0.165, 0.84, 0.44, 1" repeatCount="indefinite" />
+          <animate attributeName="stroke-opacity" begin="-0.9s" dur="1.8s" values="1; 0" calcMode="spline"
+            keyTimes="0; 1" keySplines="0.3, 0.61, 0.355, 1" repeatCount="indefinite" />
+        </circle>
       </g>
     </svg>
 
   </div>
-  <div class="flex flex-wrap  justify-between p-2 max-[500px]:justify-around" >
+  <!-- <div class="flex flex-wrap  justify-between p-2 max-[500px]:justify-around" >
     <div *ngFor="let item of autos"
 
-    class="w-[220px] border mr-2 mb-2 h-full rounded-md bg-slate-100 max-[500px]:w-[320px]">
-      <div class="p-2">
-        <img [src]="item.imagen"
-        class="w-full h-[230px] rounded-md shadow-2xl max-[500px]:h-[330px] "  lt="sss">
+    class="w-[200px] h-auto border mr-2 mb-2 rounded-md bg-slate-100 max-[500px]:w-[320px]">
+      <div class="p-2 ">
+        <div class="h-[200px]">
+          <img [src]="item.imagen"
+          class="w-full h-auto object-cover shadow-2xl  "  alt="sss">
+        </div>
+
         <div class="mt-3">
           <h2 class="text-sm text-slate-800 font-bold truncate w-32 ">{{item.nombre}}</h2>
           <p class="text-xs text-slate-500 font-semibold">° {{item.anio}} </p>
@@ -63,9 +46,39 @@
         <div class="mt-3">
           <button [routerLink]="'../detalle-cars/'+item.id" class="p-2 text-sm w-full text-slate-50 bg-blue-500 rounded-md mb-3">Ver</button>
           <button [routerLink]="'../finaciamiento/'+item.id" class="p-2 text-sm w-full text-slate-800 bg-slate-300 rounded-md">Cotizar</button>
+
         </div>
 
       </div>
     </div>
-  </div>
+  </div> -->
+  <main class="card-container">
+    <!--   First card -->
+    <article class="card" *ngFor="let item of autos">
+      <img [src]="item.imagen" width="320" height="240" alt="Replace placeholder image here" class="card-image"
+        loading="lazy">
+      <h2 class="card-title">{{item.nombre}}</h2>
+      <!-- <p class="card-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aliquid ex vel labore fugit dignissimos libero eos hic, fuga, vitae consequuntur quidem.</p> -->
+      <div class="">
+        <p class="card-description">{{item.anio}} ° {{item.kilometraje}} ° V.{{item.version}}</p>
+        <!-- <p class="text-sm text-slate-500 font-semibold">° {{item.kilometraje}}</p> -->
+        <!-- <p class="text-sm text-slate-500 font-semibold">° V.{{item.version}}</p> -->
+      </div>
+      <div class="">
+        <p class=" text-sm text-slate-500 font-semibold">Precio</p>
+        <p class="card-description">${{item.precio}}</p>
+      </div>
+
+
+      <div class="card-button">
+        <button [routerLink]="'../detalle-cars/'+item.id"
+          class="p-2 text-sm w-full text-slate-50 bg-blue-500 rounded-md mb-3">Ver</button>
+        <button [routerLink]="'../finaciamiento/'+item.id"
+          class="p-2 text-sm w-full text-slate-800 bg-slate-300 rounded-md">Cotizar</button>
+
+      </div>
+
+    </article>
+
+  </main>
 </div>

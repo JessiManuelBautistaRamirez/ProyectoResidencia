@@ -1,0 +1,9 @@
+.card-image {
+  width: 50%;
+  min-width: 300px;
+  flex: 1;
+  height: 100% !important;
+  object-fit: cover;
+  margin-bottom: 0.85rem;
+
+}

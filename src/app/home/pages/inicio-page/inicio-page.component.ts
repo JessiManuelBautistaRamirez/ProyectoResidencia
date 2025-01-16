@@ -5,7 +5,7 @@ import { AutosModel } from '../../interface/auto.interface';
 @Component({
   selector: 'app-inicio-page',
   templateUrl: './inicio-page.component.html',
-  styles: ``
+  styleUrl:'./inicio-page.component.css'
 })
 export class InicioPageComponent implements OnInit {
   public autos?:AutosModel[];
